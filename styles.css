@@ -1,0 +1,91 @@
+body {
+    font-family: 'Caveat Brush', cursive;
+    background-color: #f7f0f5;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #e7b3c7;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(231, 179, 199, 0.5);
+    text-align: center;
+}
+
+#logo {
+    width: 300px; /* Tamaño deseado para la imagen */
+    height: auto; /* Para mantener la proporción original */
+    display: block;
+    margin: 0 auto 20px; /* Alinea la imagen en el centro y agrega espacio en la parte inferior */
+}
+
+h2 {
+    color: #8f5a6b;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #a36a7e;
+}
+
+select, input, button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #e7b3c7;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    background-color: #b8728c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Caveat Brush', cursive;
+}
+
+button:hover {
+    background-color: #a7617b;
+}
+
+#resumen {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #8f5a6b;
+}
+
+.eliminar {
+    color: #e74c3c;
+    cursor: pointer;
+}
+
+/* Ajustes para el nuevo div de ticket */
+.ticket {
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(231, 179, 199, 0.5);
+    border: 1px solid #e7b3c7;
+    border-radius: 10px;
+    z-index: 1000;
+    transition: top 0.3s ease-in-out;
+}
+
+.ticket h3 {
+    color: #8f5a6b;
+}
+
+.ticket p {
+    color: #a36a7e;
+}
