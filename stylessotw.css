@@ -24,7 +24,7 @@ body {
 }
 
 #logo {
-    width: 50px; /* Tamaño deseado para la imagen */
+    width: 300px; /* Tamaño deseado para la imagen */
     height: auto; /* Para mantener la proporción original */
     display: block;
     margin: 0 auto 20px; /* Alinea la imagen en el centro y agrega espacio en la parte inferior */
