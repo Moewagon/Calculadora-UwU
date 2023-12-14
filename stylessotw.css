@@ -1,0 +1,124 @@
+#navbar{
+    top: 0;
+    position :absolute;
+}
+
+body {
+    font-family: 'Caveat', cursive, sans-serif;
+    background-color: #8F9779; /* Fondo verde musgo */
+    color: #8B4513; /* Texto marrón tierra */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #D2B48C; /* Fondo beige para el contenedor */
+    border: 1px solid #6B8E23; /* Borde verde orégano */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(107, 142, 35, 0.5); /* Sombra verde orégano */
+    text-align: center;
+}
+
+#logo {
+    width: 50px; /* Tamaño deseado para la imagen */
+    height: auto; /* Para mantener la proporción original */
+    display: block;
+    margin: 0 auto 20px; /* Alinea la imagen en el centro y agrega espacio en la parte inferior */
+}
+
+h2 {
+    color: #8B4513; /* Texto marrón tierra */
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #6B8E23; /* Verde orégano para etiquetas */
+}
+
+select, input, button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #6B8E23; /* Borde verde orégano */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    background-color: #6B8E23; /* Botón verde orégano */
+    color: #fff; /* Texto blanco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #688A08; /* Cambio de color al pasar el ratón (verde salvia) */
+}
+
+#resumen {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #8B4513; /* Texto marrón tierra */
+}
+
+.eliminar {
+    color: #8B4513; /* Texto marrón tierra */
+    cursor: pointer;
+}
+
+.ticket {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 20px;
+    background-color: #D2B48C; /* Fondo beige para el ticket */
+    box-shadow: 0 0 10px rgba(107, 142, 35, 0.5); /* Sombra verde orégano */
+    border: 1px solid #6B8E23; /* Borde verde orégano */
+    border-radius: 10px;
+    z-index: 1000;
+    transition: top 0.3s ease-in-out;
+}
+
+.ticket h3 {
+    color: #8B4513; /* Texto marrón tierra */
+}
+
+.ticket p {
+    color: #6B8E23; /* Verde orégano para texto del ticket */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #6B8E23; /* Cambiado a Olive Drab oscuro */
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #D2B48C; /* Cambiado a Tan */
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: rgba(107, 142, 35, 0.5); /* Cambiado a Olive Drab con una opacidad del 50% */
+    color: white;
+}

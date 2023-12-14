@@ -1,8 +1,14 @@
+#navbar{
+    top: 0;
+    position :absolute;
+}
+
 body {
     font-family: 'Caveat Brush', cursive;
     background-color: #f7f0f5;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 #container {
@@ -68,10 +74,11 @@ button:hover {
     cursor: pointer;
 }
 
-/* Ajustes para el nuevo div de ticket */
 .ticket {
     position: absolute;
-    right: 20px;
+    font-size: larger;
+    width: 230px;
+    right: 50px;
     top: 50px;
     padding: 20px;
     background-color: #fff;
@@ -88,4 +95,32 @@ button:hover {
 
 .ticket p {
     color: #a36a7e;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #fff; /* Cambiado a blanco */
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: rgba(231, 179, 199, 0.5); /* Cambiado a un tono de rosa con una opacidad del 50% */
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #e7b3c7; /* Cambiado a un tono de rosa más oscuro */
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: rgba(231, 179, 199, 0.5); /* Mantenido el mismo tono de rosa con una opacidad del 50% */
+    color: white;
 }
