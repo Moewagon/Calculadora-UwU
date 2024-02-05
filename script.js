@@ -8,7 +8,7 @@ const productos = {
     "Kebab": 11,
     "Junk": 10,
     "Galletas de la suerte": 5,
-    "Café": 10,
+    "Café": 15,
     "Cola": 10,
     "Sprunk": 10,
     "Crush": 10,
@@ -25,6 +25,7 @@ const productos = {
     "Bizcocho del gato": 15,
     "Bubble tea": 15,
     "Mochi": 15,
+    "Cerveza": 15,
 };
 
 
